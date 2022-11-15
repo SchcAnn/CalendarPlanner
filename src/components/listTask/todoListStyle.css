@@ -1,0 +1,131 @@
+/*#fffbf3; светло-жёлтый 
+#DE7A22;   Оранжевый
+#6AB187; светло-зелёный
+#20948B изумрудный
+#e4ebe9 ,background */
+
+
+
+.newBisness {
+    max-width: 1200px;  
+   }
+
+.newBisness :first-child {
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.input {
+    padding: 10px;
+    width: 1000px;
+    min-height: 40px;
+    text-align: left;
+    font-size: 18px;
+    word-wrap: break-word;
+    border: 0px;
+    border-bottom: 2px dotted #6AB187;
+    background-color: #fffbf3;
+    box-sizing: border-box;
+}
+
+.input :active,
+:hover,
+:focus {
+    outline: 0;
+    outline-offset: 0;
+}
+
+.priority {
+    margin-top: 3px;
+    min-height: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.priority p {
+    padding-bottom: 18px;
+    font-size: 15px;
+}
+
+.priority div {
+    padding: 15px 3px;
+    margin-left: 5px;
+    margin-bottom: 20px;
+    width: 60px;
+    min-height: 10px;
+    border-radius: 60px;
+    text-align: center;
+    font-size: 10px;
+}
+
+/*Для компоненты BusinessForToday*/
+
+.listTask {
+    
+    display: flex;
+    flex-direction: column;
+    background-color: #fffbf3;
+}
+
+.taskInListTask {
+    min-height: 40px;
+    padding: 0px 3px 5px 3px;
+    background-color: #fffbf3;
+    border-bottom: 2px dotted #6AB187;
+    border-left: 2px dotted #6AB187;
+    border-right: 2px dotted #6AB187;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.countTask {
+    margin-top: 3px;
+    padding-top: 5px;
+    box-sizing: border-box;
+    width: 40px;
+    height: 40px;
+    background-color: #6AB187;
+    font-size: 18px;
+    font-weight: 900;
+    text-align: center;
+    line-height: 40px; 
+    }
+
+.countTask img {
+    background-color: #6AB187;
+    width: 20px;
+    height: 20px;
+}
+
+.textTask {
+    width: 1000px;
+    padding-left: 5px;
+    font-size: 18px;
+    text-align: left;
+    word-wrap: break-word;
+    border-left: 1px, solid, #6AB187;
+    background-color: #fffbf3;
+}
+
+.prioryTask {
+    width: 60px;
+    background-color: #fffbf3;
+    display: flex;
+    justify-content: left;
+}
+
+.prioryTask div {
+    width: 15px;
+    height: 15px;
+}
+
+.btnTask {
+    width: 100px;
+    background-color: #fffbf3;
+    display: flex;
+}
+/* ///////////////////////////////////////////////////// */

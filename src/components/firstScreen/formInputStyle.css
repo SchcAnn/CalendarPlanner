@@ -1,0 +1,108 @@
+/*#fffbf3; светло-жёлтый 
+#DE7A22;   Оранжевый
+#6AB187; светло-зелёный
+#20948B изумрудный 
+#e4ebe9 background*/
+
+.firstScreen { /*Для формы*/
+    font-family: 'Mulish', sans-serif;
+}
+.firstScreen {
+    min-height: 100vh;
+    background-image: url(../../../public/bg/firstBG.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+}
+/*форма входа*/
+.formInput { 
+    margin: 0 auto;
+    width: 350px;
+    height: 350px;
+    box-shadow: 3px 3px 4px #6AB187;
+    background-color: #e4ebe9;
+    display: block;
+}
+
+.formInput h3 {    
+    text-align: center;
+}
+
+.formInput p {
+    text-align: center;
+}
+.formInput label {
+    margin-bottom: 150px;
+}
+
+/*форма регистрации*/
+.formRegister {
+    margin: 0 auto;
+    width: 350px;
+    height: 370px;
+    background-color: #e4ebe9;
+    box-shadow: 3px 3px 4px #6AB187;
+    display: block;
+    flex-direction: column;
+}
+
+.formRegister h3 {
+    text-align: center;
+}
+
+.formRegister p {
+    text-align: center;
+}
+
+form {
+    margin: 15px auto;
+    width: 280px;
+}
+
+form input {
+    border: 1px solid #6AB187;
+    width: 95%;
+    height: 35px;
+    box-sizing: border-box;
+    margin-bottom: 15px;
+}
+
+form div {
+    margin-top: 5px;
+}
+
+.btnFormInp {
+    margin-top: 15px;
+    width: 95%;
+    height: 30px;
+    background-color: #6AB187;
+    border: none;
+}
+.btnFormInp:hover {
+    background-color:#DE7A22 ;
+}
+
+.nameInput {
+    font-size: 12px;
+    color: red;
+    margin-bottom: 15px;
+}
+
+
+.inputError{
+    border: 1px solid red;
+    box-shadow: 0px 0px 5px red;
+}
+
+.linkForm {
+    font-weight: 700;
+    color: #6AB187;
+    text-decoration: none;
+}
+.linkForm:hover {
+    font-weight: 700;
+    color:#DE7A22;
+    text-decoration: none;
+}
+

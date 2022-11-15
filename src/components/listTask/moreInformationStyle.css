@@ -1,0 +1,35 @@
+
+.imgMatrix{
+    max-width: 1200px;
+    width: 100%;
+    height: 340px;
+    opacity: 0.8;
+}
+.infoText {
+    font-size: 17px;
+    text-align: justify;
+    text-indent: 20px;
+    padding:0 10px;
+}
+.back {
+    margin: 15px 0px;
+    padding-left: 10px;    
+}
+.infoText h1 {    
+    margin-bottom: 35px ;
+    font-size: 35px;
+}
+.infoText h3 {    
+    margin: 15px 0px;
+    font-size: 25px;
+}
+.imgMatrixSqure {
+    text-align: center;
+}
+.imgMatrixSqure img {
+    margin: 30px auto;    
+    width: 60%;   
+}
+.imghaveAplan {
+    width: 100%;
+}

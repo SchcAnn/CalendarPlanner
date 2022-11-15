@@ -1,0 +1,70 @@
+/*#fffbf3; светло-жёлтый 
+#DE7A22;   Оранжевый
+#6AB187; светло-зелёный
+#20948B изумрудный */
+
+.headerWrap {    
+    font-family: 'Mulish', sans-serif;
+    padding: 0px 25px;
+    height: 80px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #e4ebe9;
+    border-bottom: 2px solid #6AB187;
+}
+
+.headerLogo {
+    margin-right: 5px;
+    height: 70px;
+    font-family: 'Pacifico';   /* 'Pacifico''Rubik Bubbles';*/
+    font-size: 20px;
+    font-weight: 700;
+    color:#808781 ;
+    text-shadow: 1px 1px 0.5px #7fd943;    
+    display: flex;
+    align-items: center;
+}
+
+.headerLogo img {
+    margin-right: 10px;
+    width: 60px;
+    height: 60px;
+}
+
+.headerBtnBox {   
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-end;
+    
+}
+
+.headerBtn {    
+    height: 40px;
+    color: #6AB187;
+    letter-spacing: 1px;
+    font-weight: 900;
+    font-size: 15px;
+    line-height: 40px;
+    text-align: center;
+}
+
+.headerBtn:hover {
+    color: #DE7A22;
+    cursor: pointer;
+}
+
+.linkHeader {
+    text-shadow: 1px 1px 1px black;
+    font-size: 16px;
+    font-weight: 700;
+    color: #6AB187;
+    text-decoration: none;
+}
+
+.linkHeader:hover {
+    font-weight: 700;
+    color: #DE7A22;
+    text-decoration: none;
+}

@@ -1,23 +1,24 @@
-import logo from './logo.svg';
+import { Routes, Route } from "react-router-dom";
+import { FirstScreen } from './components/firstScreen/FirstScreen';
+import { InputForm } from './components/firstScreen/InputForm';
+import { RegistrationForm } from './components/firstScreen/RegistrationForm';
+import { All } from './components/all';
+import { MoreInformationAbout } from './components/listTask/MoreInformation'
+
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="app">
+
+      <Routes>
+        <Route element={<FirstScreen />} path='/' />
+        <Route element={<InputForm />} path='/SignIn' />
+        <Route element={<RegistrationForm />} path='/signUp' />
+        <Route element={<All />} path='/Calendar' />
+        <Route element={<MoreInformationAbout />} path='/InformationAboutPlanning' />
+      </Routes>
+
     </div>
   );
 }

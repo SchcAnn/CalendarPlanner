@@ -1,0 +1,91 @@
+/*#fffbf3; светло-жёлтый 
+#DE7A22;   Оранжевый
+#6AB187; светло-зелёный
+#20948B изумрудный 
+#e4ebe9 background
+font-family: 'Mulish', sans-serif;*/
+
+.helloScreen {
+    min-height: 100vh;
+    background-image: url(../../../public/bg/helloScreen.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.HelloWrapper {
+    margin: 0 auto;
+    max-width: 1200px;
+    font-family: 'Mulish', sans-serif;
+    border-radius: 20px;
+    background-color: rgb(228, 235, 233, 0.9);
+}
+
+.helloScreen h1 {
+    margin: 70px auto 0 auto;
+    max-width: 700px;
+    font-family: 'Roboto Slab';
+    font-size: 45px;
+    font-weight: 900;
+    text-align: center;
+    background: inherit;
+    color: #40845c;
+}
+
+.helloScreen h4 {
+    margin: 0 auto;
+    max-width: 700px;
+    font-family: 'Roboto Slab';
+    font-size: 25px;
+    font-weight: 500;
+    text-align: center;
+    background: inherit;
+    color: black;
+}
+.helloScreen p {
+    margin: 25px auto;
+    padding: 10px;
+    max-width: 1200px;  
+    font-size: 20px;    
+    text-align: justify;
+    word-wrap: break-word;
+    background: inherit;
+    color: black;
+}
+
+.benefits {
+    margin: 35px auto;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.benefits img {    
+    width: 50px;
+    height: 50px;
+}
+
+.benefits div {
+    max-width: 200px;
+    font-family: 'Roboto Slab';
+}
+
+.benefits p {
+    text-align: center; 
+}
+
+.localBenefits {
+    width:35% ;
+    padding: 5px;
+    background-color: #e4ebe9;
+    border: 1px solid #6AB187;
+    box-shadow: 3px 3px 4px #6AB187;
+}
+
+.linkHello {
+    width: 100px;
+    height: 40px;
+    background-color: aqua;
+}
+
+
